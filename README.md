@@ -6,7 +6,7 @@ A KiCAD library for WCH chips
 - [X] CH592F
 - [ ] CH592X
 - [ ] CH592D
-- [ ] CH591R
+- [X] CH591R
 - [ ] CH591F
 - [ ] CH591D
 
