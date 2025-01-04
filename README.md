@@ -3,8 +3,10 @@ A KiCAD library for WCH chips
 
 ## Parts List
 
-- [ ] CH592
-- [ ] 
+- [X] CH592F
+- [ ] CH592R
+- [ ] CH592X
+- [ ] CH592D
 
 
 ## Organization
