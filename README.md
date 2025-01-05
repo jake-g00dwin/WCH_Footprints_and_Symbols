@@ -30,6 +30,8 @@ alternate pin functions where possible.
 
 ## Organization
 
+Pretty much everythign is just in the root directory of the repo.
+
 ## Contributing
 
 Make a PR if you want to help out. If you have a specific chip you want 
