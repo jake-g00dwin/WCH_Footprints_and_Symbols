@@ -1484,7 +1484,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1492,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at 97.79 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +1500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 97.79 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,7 +1509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 97.79 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1518,7 +1518,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 97.79 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1561,7 @@
 			(pin bidirectional line
 				(at 22.86 34.29 180)
 				(length 2.54)
-				(name "PA11/TMR2"
+				(name "PA11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1575,11 +1575,13 @@
 						)
 					)
 				)
+				(alternate "TMR2" bidirectional line)
+				(alternate "X32KO" output line)
 			)
 			(pin bidirectional line
 				(at 22.86 11.43 180)
 				(length 2.54)
-				(name "PB13/SCK0_/TXD1_/DCD_"
+				(name "PB13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1593,11 +1595,14 @@
 						)
 					)
 				)
+				(alternate "DCD_" bidirectional line)
+				(alternate "SCK0_" bidirectional line)
+				(alternate "TXD1_" output line)
 			)
 			(pin bidirectional line
 				(at 22.86 8.89 180)
 				(length 2.54)
-				(name "PB12/SCS_/RXD1_/RI_"
+				(name "PB12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1611,11 +1616,14 @@
 						)
 					)
 				)
+				(alternate "RI_" input line)
+				(alternate "RXD1_" input line)
+				(alternate "SCS_" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 22.86 6.35 180)
 				(length 2.54)
-				(name "PB11/UD+/TMR2_"
+				(name "PB11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1629,11 +1637,13 @@
 						)
 					)
 				)
+				(alternate "TMR2_" bidirectional line)
+				(alternate "UD+" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 22.86 3.81 180)
 				(length 2.54)
-				(name "PB10/UD-/TMR1_"
+				(name "PB10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1647,11 +1657,13 @@
 						)
 					)
 				)
+				(alternate "TMR1_" bidirectional line)
+				(alternate "UD-" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 22.86 1.27 180)
 				(length 2.54)
-				(name "PB7/TXD0/PWM9"
+				(name "PB7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1665,11 +1677,13 @@
 						)
 					)
 				)
+				(alternate "PWM9" output line)
+				(alternate "TXD0" output line)
 			)
 			(pin bidirectional line
 				(at 22.86 -1.27 180)
 				(length 2.54)
-				(name "PB4/RXD0/PWM7"
+				(name "PB4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1683,11 +1697,13 @@
 						)
 					)
 				)
+				(alternate "PWM7" output line)
+				(alternate "RXD0" input line)
 			)
 			(pin bidirectional line
 				(at 22.86 -3.81 180)
 				(length 2.54)
-				(name "PB23/RST/TMR0_/TXD2/PWM11"
+				(name "PB23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1701,11 +1717,15 @@
 						)
 					)
 				)
+				(alternate "PWM11" output line)
+				(alternate "RST" input line)
+				(alternate "TMR0_" bidirectional line)
+				(alternate "TXD2" output line)
 			)
 			(pin bidirectional line
 				(at 22.86 -6.35 180)
 				(length 2.54)
-				(name "PB22/TMR3/RXD2"
+				(name "PB22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1719,6 +1739,8 @@
 						)
 					)
 				)
+				(alternate "RXD2" input line)
+				(alternate "TMR3" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 22.86 -8.89 180)
@@ -1759,7 +1781,7 @@
 			(pin bidirectional line
 				(at 22.86 31.75 180)
 				(length 2.54)
-				(name "PA10/TRM1"
+				(name "PA10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1773,6 +1795,8 @@
 						)
 					)
 				)
+				(alternate "TRM1" bidirectional line)
+				(alternate "X32KI" input line)
 			)
 			(pin bidirectional line
 				(at 22.86 -13.97 180)
@@ -1831,7 +1855,7 @@
 			(pin bidirectional line
 				(at 22.86 -21.59 180)
 				(length 2.54)
-				(name "PA4/RXD3/A_IN0"
+				(name "PA4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1845,11 +1869,13 @@
 						)
 					)
 				)
+				(alternate "AIN0" input line)
+				(alternate "RXD3" input line)
 			)
 			(pin bidirectional line
 				(at 22.86 -24.13 180)
 				(length 2.54)
-				(name "PA5/TXD3/A_IN1"
+				(name "PA5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1863,11 +1889,13 @@
 						)
 					)
 				)
+				(alternate "AIN1" input line)
+				(alternate "TXD3" output line)
 			)
 			(pin bidirectional line
 				(at 22.86 -26.67 180)
 				(length 2.54)
-				(name "PA15/MISO/RXD0_/A_IN5"
+				(name "PA15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1881,11 +1909,14 @@
 						)
 					)
 				)
+				(alternate "AIN5" input line)
+				(alternate "MISO" input line)
+				(alternate "RXD0_" input line)
 			)
 			(pin bidirectional line
 				(at 22.86 -29.21 180)
 				(length 2.54)
-				(name "PA14/MOSI/TXD0_/A_IN4"
+				(name "PA14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1899,11 +1930,14 @@
 						)
 					)
 				)
+				(alternate "AIN4" input line)
+				(alternate "MOSI" output line)
+				(alternate "TXD0_" output line)
 			)
 			(pin bidirectional line
 				(at 22.86 -31.75 180)
 				(length 2.54)
-				(name "PA13/SCK0/PWM5/A_IN3"
+				(name "PA13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1917,11 +1951,14 @@
 						)
 					)
 				)
+				(alternate "AIN3" input line)
+				(alternate "PWM5" output line)
+				(alternate "SCK0" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 22.86 -34.29 180)
 				(length 2.54)
-				(name "PA12/SCS/PWM4/A_IN2"
+				(name "PA12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1935,6 +1972,9 @@
 						)
 					)
 				)
+				(alternate "AIN2" input line)
+				(alternate "PWM4" output line)
+				(alternate "SCS" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 22.86 29.21 180)
@@ -1972,7 +2012,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 22.86 24.13 180)
 				(length 2.54)
 				(name "VIO33/VDD33"
@@ -2007,11 +2047,13 @@
 						)
 					)
 				)
+				(alternate "AIN12" input line)
+				(alternate "RXD1" input line)
 			)
 			(pin bidirectional line
 				(at 22.86 19.05 180)
 				(length 2.54)
-				(name "PA9/TMR0"
+				(name "PA9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2025,11 +2067,14 @@
 						)
 					)
 				)
+				(alternate "AIN13" input line)
+				(alternate "TMR0" bidirectional line)
+				(alternate "TXD1" output line)
 			)
 			(pin bidirectional line
 				(at 22.86 16.51 180)
 				(length 2.54)
-				(name "PB15/TCK/MISO_/SCL/DTR"
+				(name "PB15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2043,11 +2088,15 @@
 						)
 					)
 				)
+				(alternate "DTR" bidirectional line)
+				(alternate "MISO_" input line)
+				(alternate "SCL" bidirectional line)
+				(alternate "TCK" bidirectional line)
 			)
 			(pin bidirectional line
 				(at 22.86 13.97 180)
 				(length 2.54)
-				(name "PB14/TIO/MOSI_/SDA/PWM1_0/DSR"
+				(name "PB14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2061,6 +2110,11 @@
 						)
 					)
 				)
+				(alternate "DSR" bidirectional line)
+				(alternate "MOSI_" output line)
+				(alternate "PWM10" output line)
+				(alternate "SDA" bidirectional line)
+				(alternate "TIO" bidirectional line)
 			)
 		)
 	)
