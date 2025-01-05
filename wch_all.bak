@@ -1720,6 +1720,7 @@
 				(alternate "PWM11" output line)
 				(alternate "RST" input line)
 				(alternate "TMR0_" bidirectional line)
+				(alternate "TXD2" output line)
 			)
 			(pin bidirectional line
 				(at 22.86 -6.35 180)
@@ -1738,6 +1739,7 @@
 						)
 					)
 				)
+				(alternate "RXD2" input line)
 				(alternate "TMR3" bidirectional line)
 			)
 			(pin bidirectional line
@@ -1868,6 +1870,7 @@
 					)
 				)
 				(alternate "AIN0" input line)
+				(alternate "RXD3" input line)
 			)
 			(pin bidirectional line
 				(at 22.86 -24.13 180)
@@ -1887,6 +1890,7 @@
 					)
 				)
 				(alternate "AIN1" input line)
+				(alternate "TXD3" output line)
 			)
 			(pin bidirectional line
 				(at 22.86 -26.67 180)
@@ -2086,6 +2090,7 @@
 				)
 				(alternate "DTR" bidirectional line)
 				(alternate "MISO_" input line)
+				(alternate "SCL" bidirectional line)
 				(alternate "TCK" bidirectional line)
 			)
 			(pin bidirectional line
@@ -2108,6 +2113,7 @@
 				(alternate "DSR" bidirectional line)
 				(alternate "MOSI_" output line)
 				(alternate "PWM10" output line)
+				(alternate "SDA" bidirectional line)
 				(alternate "TIO" bidirectional line)
 			)
 		)
