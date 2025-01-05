@@ -53,6 +53,6 @@ added feel free to make a github issue for it as well.
 
 ## Liscense
 
-BSD 3
+BSD 3-Clause License
 
 basically do whatever you want with this.
