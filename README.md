@@ -22,6 +22,9 @@ ones. I've added them to the repo just in case someone is missing them.
 - [X] CH591R
 - [X] CH591F
 - [ ] CH591D
+- [ ] CH583
+- [ ] CH582
+- [ ] CH581
 
 **CH32X--(USB/PD):**
 
