@@ -23,8 +23,18 @@ ones. I've added them to the repo just in case someone is missing them.
 - [X] CH591F
 - [ ] CH591D
 
-**CH32XXX:**
+**CH32X--(USB/PD):**
 
+- [ ] CH32X035
+
+**CH32V--(General Purpose/Connectivity):**
+
+- [ ] CH32V003
+- [ ] CH32V203
+- [ ] CH32V208
+- [ ] CH32V303
+- [ ] CH32V305
+- [ ] CH32V307
 
 **USB ICs:**
 
