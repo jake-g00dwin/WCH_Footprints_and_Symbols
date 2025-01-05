@@ -11,6 +11,8 @@ alternate pin functions where possible.
 
 ## Parts List
 
+**BLE/WiFi:**
+
 - [X] CH592F
 - [X] CH592X
 - [X] CH592D
@@ -18,12 +20,20 @@ alternate pin functions where possible.
 - [ ] CH591F
 - [ ] CH591D
 
+**CH32XXX:**
+
+
+**USB ICs:**
+
+
+
 
 ## Organization
 
 ## Contributing
 
-Make a PR if you want to help out.
+Make a PR if you want to help out. If you have a specific chip you want 
+added feel free to make a github issue for it as well.
 
 ## Liscense
 
