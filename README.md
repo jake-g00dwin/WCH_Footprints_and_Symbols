@@ -8,6 +8,9 @@ start working on the other ICs.
 This library is for the newer versions of KiCAD and will make use of the
 alternate pin functions where possible.
 
+On the subject of the footprints, they are the same as the default library
+ones. I've added them to the repo just in case someone is missing them.
+
 
 ## Parts List
 
