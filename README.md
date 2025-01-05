@@ -26,8 +26,6 @@ alternate pin functions where possible.
 **USB ICs:**
 
 
-
-
 ## Organization
 
 Pretty much everythign is just in the root directory of the repo.
