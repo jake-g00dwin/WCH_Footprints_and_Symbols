@@ -2138,7 +2138,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "wch_all:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm"
 			(at 0 0 0)
 			(effects
 				(font
