@@ -18,7 +18,7 @@ alternate pin functions where possible.
 - [X] CH592D
 - [X] CH591R
 - [ ] CH591F
-- [ ] CH591D
+- [X] CH591D
 
 **CH32XXX:**
 
