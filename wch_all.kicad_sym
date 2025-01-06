@@ -2175,7 +2175,7 @@
 			)
 		)
 		(property "Footprint" "wch_all:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm"
-			(at 0 0 0)
+			(at -11.684 -4.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +2193,7 @@
 			)
 		)
 		(property "Description" "WCH RISC-V MCU, 448+24+32K Flash, 24+2K Ram, Min Supply 1.7V"
-			(at 0 0 0)
+			(at -6.35 -4.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,8 +2212,8 @@
 		)
 		(symbol "CH592X_0_1"
 			(rectangle
-				(start 22.86 43.18)
-				(end -22.86 -44.45)
+				(start -15.24 43.18)
+				(end 15.24 -41.91)
 				(stroke
 					(width 0)
 					(type default)
@@ -2225,7 +2225,7 @@
 		)
 		(symbol "CH592X_1_1"
 			(pin power_in line
-				(at -25.4 -43.18 0)
+				(at -17.78 -39.37 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2243,7 +2243,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 39.37 180)
+				(at 17.78 39.37 180)
 				(length 2.54)
 				(name "PA10"
 					(effects
@@ -2263,7 +2263,7 @@
 				(alternate "X32KI" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 25.4 16.51 180)
+				(at 17.78 16.51 180)
 				(length 2.54)
 				(name "PA9"
 					(effects
@@ -2284,7 +2284,7 @@
 				(alternate "TXD1" output line)
 			)
 			(pin bidirectional line
-				(at 25.4 13.97 180)
+				(at 17.78 13.97 180)
 				(length 2.54)
 				(name "PB15"
 					(effects
@@ -2306,7 +2306,7 @@
 				(alternate "TCK" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 25.4 11.43 180)
+				(at 17.78 11.43 180)
 				(length 2.54)
 				(name "PB14"
 					(effects
@@ -2329,7 +2329,7 @@
 				(alternate "T_IO" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 25.4 8.89 180)
+				(at 17.78 8.89 180)
 				(length 2.54)
 				(name "PB13"
 					(effects
@@ -2350,7 +2350,7 @@
 				(alternate "TXD1_" output line)
 			)
 			(pin bidirectional line
-				(at 25.4 6.35 180)
+				(at 17.78 6.35 180)
 				(length 2.54)
 				(name "PB12"
 					(effects
@@ -2371,7 +2371,7 @@
 				(alternate "SCS_" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 25.4 3.81 180)
+				(at 17.78 3.81 180)
 				(length 2.54)
 				(name "PB11"
 					(effects
@@ -2391,7 +2391,7 @@
 				(alternate "UD+" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 25.4 1.27 180)
+				(at 17.78 1.27 180)
 				(length 2.54)
 				(name "PB10"
 					(effects
@@ -2411,7 +2411,7 @@
 				(alternate "UD-" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 25.4 -1.27 180)
+				(at 17.78 -1.27 180)
 				(length 2.54)
 				(name "PB7"
 					(effects
@@ -2431,7 +2431,7 @@
 				(alternate "TXD0" output line)
 			)
 			(pin bidirectional line
-				(at 25.4 -3.81 180)
+				(at 17.78 -3.81 180)
 				(length 2.54)
 				(name "PB4"
 					(effects
@@ -2451,7 +2451,7 @@
 				(alternate "RXD0" input line)
 			)
 			(pin bidirectional line
-				(at 25.4 -6.35 180)
+				(at 17.78 -6.35 180)
 				(length 2.54)
 				(name "PB23"
 					(effects
@@ -2473,7 +2473,7 @@
 				(alternate "TXD2" output line)
 			)
 			(pin bidirectional line
-				(at 25.4 36.83 180)
+				(at 17.78 36.83 180)
 				(length 2.54)
 				(name "PB6"
 					(effects
@@ -2494,7 +2494,7 @@
 				(alternate "RTS" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 25.4 -8.89 180)
+				(at 17.78 -8.89 180)
 				(length 2.54)
 				(name "PB22"
 					(effects
@@ -2514,7 +2514,7 @@
 				(alternate "TMR3" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 25.4 -11.43 180)
+				(at 17.78 -11.43 180)
 				(length 2.54)
 				(name "X32M0"
 					(effects
@@ -2532,7 +2532,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -13.97 180)
+				(at 17.78 -13.97 180)
 				(length 2.54)
 				(name "X32MI"
 					(effects
@@ -2550,7 +2550,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 31.75 0)
+				(at -17.78 31.75 0)
 				(length 2.54)
 				(name "V_INTA"
 					(effects
@@ -2568,7 +2568,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -19.05 180)
+				(at 17.78 -19.05 180)
 				(length 2.54)
 				(name "ANT"
 					(effects
@@ -2586,7 +2586,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 29.21 0)
+				(at -17.78 29.21 0)
 				(length 2.54)
 				(name "VDCIA"
 					(effects
@@ -2604,7 +2604,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -24.13 180)
+				(at 17.78 -24.13 180)
 				(length 2.54)
 				(name "PA4"
 					(effects
@@ -2624,7 +2624,7 @@
 				(alternate "RXD3" input line)
 			)
 			(pin bidirectional line
-				(at 25.4 -26.67 180)
+				(at 17.78 -26.67 180)
 				(length 2.54)
 				(name "PA5"
 					(effects
@@ -2644,7 +2644,7 @@
 				(alternate "TXD3" output line)
 			)
 			(pin bidirectional line
-				(at 25.4 -29.21 180)
+				(at 17.78 -29.21 180)
 				(length 2.54)
 				(name "PA15"
 					(effects
@@ -2665,7 +2665,7 @@
 				(alternate "RXD0_" input line)
 			)
 			(pin bidirectional line
-				(at 25.4 -31.75 180)
+				(at 17.78 -31.75 180)
 				(length 2.54)
 				(name "PA14"
 					(effects
@@ -2686,7 +2686,7 @@
 				(alternate "TXD0_" output line)
 			)
 			(pin bidirectional line
-				(at 25.4 34.29 180)
+				(at 17.78 34.29 180)
 				(length 2.54)
 				(name "PB0"
 					(effects
@@ -2707,7 +2707,7 @@
 				(alternate "PWM6" output line)
 			)
 			(pin bidirectional line
-				(at 25.4 -34.29 180)
+				(at 17.78 -34.29 180)
 				(length 2.54)
 				(name "PA13"
 					(effects
@@ -2728,7 +2728,7 @@
 				(alternate "SCK0" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 25.4 -36.83 180)
+				(at 17.78 -36.83 180)
 				(length 2.54)
 				(name "PA12"
 					(effects
@@ -2749,7 +2749,7 @@
 				(alternate "SCS" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 25.4 -39.37 180)
+				(at 17.78 -39.37 180)
 				(length 2.54)
 				(name "PA11"
 					(effects
@@ -2769,7 +2769,7 @@
 				(alternate "X32K0" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -25.4 39.37 0)
+				(at -17.78 39.37 0)
 				(length 2.54)
 				(name "VDC_ID"
 					(effects
@@ -2787,7 +2787,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 36.83 0)
+				(at -17.78 36.83 0)
 				(length 2.54)
 				(name "VSW"
 					(effects
@@ -2805,7 +2805,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 34.29 0)
+				(at -17.78 34.29 0)
 				(length 2.54)
 				(name "VI_033/VDD33"
 					(effects
@@ -2823,7 +2823,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 24.13 180)
+				(at 17.78 24.13 180)
 				(length 2.54)
 				(name "PA6"
 					(effects
@@ -2845,7 +2845,7 @@
 				(alternate "RXD2_" input line)
 			)
 			(pin bidirectional line
-				(at 25.4 21.59 180)
+				(at 17.78 21.59 180)
 				(length 2.54)
 				(name "PA7"
 					(effects
@@ -2867,7 +2867,7 @@
 				(alternate "TXD2_" output line)
 			)
 			(pin bidirectional line
-				(at 25.4 19.05 180)
+				(at 17.78 19.05 180)
 				(length 2.54)
 				(name "PA8"
 					(effects
