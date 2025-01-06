@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "CH591F"
 			(at 0 0 0)
 			(effects
 				(font
@@ -41,6 +41,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RISC-V RISC WCH CH 591 591F BLE WiFi"
 			(at 0 0 0)
 			(effects
 				(font
@@ -638,14 +647,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "CH591R"
 			(at 0 0 0)
 			(effects
 				(font
@@ -672,6 +681,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RISC-V RISC WCH CH 592 592R BLE WiFi"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1012,14 +1030,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "CH592D"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1046,6 +1064,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RISC-V RISC WCH CH 592 592D BLE WiFi"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1484,15 +1511,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 -0.254 0)
+			(at -0.254 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 97.79 0 0)
+		(property "Value" "CH592F"
+			(at -0.254 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,6 +1546,15 @@
 		)
 		(property "Description" ""
 			(at 97.79 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RISC-V RISC WCH CH 592 592F BLE WiFi"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2166,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "CH592X"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2156,7 +2192,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "WCH RISC-V MCU"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RISC-V RISC WCH CH 592 592X BLE WiFi"
 			(at 0 0 0)
 			(effects
 				(font
