@@ -41,8 +41,10 @@ ones. I've added them to the repo just in case someone is missing them.
 
 **8051 Based:**
 
-- [ ] CH552
-- [ ] 
+- [ ] CH552E(10pin)
+- [ ] CH552G(16pin)
+- [ ] CH552T(20pin)
+- [ ] CH551G(16pin)
 
 **USB ICs:**
 
