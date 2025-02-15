@@ -39,6 +39,11 @@ ones. I've added them to the repo just in case someone is missing them.
 - [ ] CH32V305
 - [ ] CH32V307
 
+**8051 Based:**
+
+- [ ] CH552
+- [ ] 
+
 **USB ICs:**
 
 
