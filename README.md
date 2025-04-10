@@ -32,7 +32,10 @@ ones. I've added them to the repo just in case someone is missing them.
 
 **CH32V--(General Purpose/Connectivity):**
 
+- [ ] CH32V002
 - [ ] CH32V003
+- [ ] CH32V005
+- [ ] CH32V006
 - [ ] CH32V203
 - [ ] CH32V208
 - [ ] CH32V303
