@@ -28,6 +28,7 @@ ones. I've added them to the repo just in case someone is missing them.
 
 **CH32X--(USB/PD):**
 
+- [ ] CH32X033
 - [ ] CH32X035
 
 **CH32V--(General Purpose/Connectivity):**
@@ -36,11 +37,22 @@ ones. I've added them to the repo just in case someone is missing them.
 - [ ] CH32V003
 - [ ] CH32V005
 - [X] CH32V006
-- [ ] CH32V203
+- [ ] CH32V203:
+    - [ ] F6
+    - [ ] F8
+    - [ ] G6
+    - [ ] G8
+    - [X] K6
+    - [X] K8
+    - [ ] C6
+    - [ ] C8
+    - [ ] RB
+- [ ] CH32V205
 - [ ] CH32V208
 - [ ] CH32V303
 - [ ] CH32V305
 - [ ] CH32V307
+- [ ] CH32V315
 
 **8051 Based:**
 
