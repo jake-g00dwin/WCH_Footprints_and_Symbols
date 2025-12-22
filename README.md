@@ -35,8 +35,17 @@ ones. I've added them to the repo just in case someone is missing them.
 
 - [ ] CH32V002
 - [ ] CH32V003
-- [ ] CH32V005
-- [X] CH32V006
+- [ ] CH32V005:
+    - [ ] E6R6
+    - [ ] F6U6
+    - [ ] F6P6
+    - [ ] D6U6
+- [ ] CH32V006:
+    - [X] Kx
+    - [ ] E8
+    - [X] F8Ux
+    - [ ] F8Px
+    - [ ] F4U6
 - [ ] CH32V203:
     - [ ] F6
     - [ ] F8
