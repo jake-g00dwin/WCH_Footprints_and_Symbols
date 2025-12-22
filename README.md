@@ -1,6 +1,7 @@
 # WCH_Footprints_and_Symbols
 A KiCAD library for WCH chips.
 
+**Current KiCAD Version:** 9.x
 
 Mostly going to work on getting all the RISC-V based MCUs added, then I'll 
 start working on the other ICs.
@@ -14,6 +15,8 @@ ones. I've added them to the repo just in case someone is missing them.
 
 ## Parts List
 
+### Micro-Controllers
+
 **BLE/WiFi:**
 
 - [X] CH592F
@@ -25,6 +28,9 @@ ones. I've added them to the repo just in case someone is missing them.
 - [ ] CH583
 - [ ] CH582
 - [ ] CH581
+
+**CH32L -- Low Power:*
+
 
 **CH32X--(USB/PD):**
 
@@ -63,6 +69,9 @@ ones. I've added them to the repo just in case someone is missing them.
 - [ ] CH32V307
 - [ ] CH32V315
 
+**CH32H --:**
+
+
 **8051 Based:**
 
 - [ ] CH552E(10pin)
@@ -70,19 +79,87 @@ ones. I've added them to the repo just in case someone is missing them.
 - [ ] CH552T(20pin)
 - [X] CH551G(16pin)
 
+### Interface Chips
+
 **USB ICs:**
 
+**Ethernet Adapter Ics:**
+These only should be used for micro-controllers that have a MAC built in.
+
+- [ ] CH182
+
+**Ethernet Controller Ics:**
+These require user impimentation of the application and protocol stack.
+
+- [ ] CH390D
+- [ ] CH390H
+- [ ] CH390F
+- [ ] CH390L
+
+
+**Ethernet Protocol Stack Ics:**
+These only require users to implement the application code.
+
+- [ ] CH394L
+- [ ] CH394Q
+- [ ] CH392F
+- [ ] CH392T
+
+**Ethernet PHY Ics:**
+These require the user to implement:
+- App code
+- Protocol stack
+- MAC controller
+
+- [ ] CH182
+
+**CAN Ics:**
+
+- [ ] CH9431
+
+**I/O Expanders:**
+
+- [ ] CH423
+- [ ] CH422
+- [ ] CH351
+
+### Analog Chips
+
+- [ ] CH440G
+- [ ] CH440P
+- [ ] CH440R
+- [ ] CH442Q
+- [ ] CH442E
+- [ ] CH443K
+- [ ] CH444G
+- [ ] CH444P
+- [ ] CH445P
+
+### Power Drivers
+
+- [ ] CH271
+- [ ] CH275
+- [ ] CH282
+- [ ] CH283U/C
+- [ ] CH283T
+
+### ESD/overcurrent protection ICs
+
+- [ ] CH213
+- [ ] CH217
+- [ ] CH410
+- [ ] CH412
 
 ## Organization
 
-Pretty much everythign is just in the root directory of the repo.
+Pretty much everything is just in the root directory of the repo.
 
 ## Contributing
 
 Make a PR if you want to help out. If you have a specific chip you want 
 added feel free to make a github issue for it as well.
 
-## Liscense
+## License
 
 BSD 3-Clause License
 
