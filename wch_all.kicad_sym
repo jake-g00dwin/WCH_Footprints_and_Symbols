@@ -2210,6 +2210,414 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "CH551G"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH551G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:STC_SOP-16_3.9x9.9mm_P1.27mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "A WCH E8051(enhanced 8051) micro-controller with 16KB ROM, 768 Ram, USB, 3 Timers, 2 PWM, SPI, 24MHz, Watch-Dog, 5V-3.3V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "WCH, wch-ic, 8051, mcu, micro-controller, E8051, ch551, ch552, MCS51"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CH551G_0_1"
+			(rectangle
+				(start -12.7 12.7)
+				(end 12.7 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "CH551G_1_1"
+			(pin bidirectional line
+				(at -15.24 8.89 0)
+				(length 2.54)
+				(name "P3.2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AIN3" input line)
+				(alternate "INT0" input line)
+				(alternate "TXD1" output line)
+				(alternate "VBUS1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -15.24 6.35 0)
+				(length 2.54)
+				(name "P1.4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AIN1" bidirectional line)
+				(alternate "CAP1_" bidirectional line)
+				(alternate "SCS" bidirectional line)
+				(alternate "T2_" bidirectional line)
+				(alternate "TIN2" bidirectional line)
+				(alternate "UCC1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -15.24 3.81 0)
+				(length 2.54)
+				(name "P1.5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AIN2" bidirectional line)
+				(alternate "MOSI" bidirectional line)
+				(alternate "PWM1" bidirectional line)
+				(alternate "TIN3" bidirectional line)
+				(alternate "UCC2" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -15.24 1.27 0)
+				(length 2.54)
+				(name "P1.6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "MISO" bidirectional line)
+				(alternate "RXD1" bidirectional line)
+				(alternate "TIN4" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -15.24 -1.27 0)
+				(length 2.54)
+				(name "P1.7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "SCK" bidirectional line)
+				(alternate "TIN5" bidirectional line)
+				(alternate "TXD1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -15.24 -3.81 0)
+				(length 2.54)
+				(name "RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "CAP2_" bidirectional line)
+				(alternate "T2EX_" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -15.24 -6.35 0)
+				(length 2.54)
+				(name "P3.1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWM2_" bidirectional line)
+				(alternate "TXD" bidirectional line)
+			)
+			(pin bidirectional line
+				(at -15.24 -8.89 0)
+				(length 2.54)
+				(name "P3.0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWM1_" bidirectional line)
+				(alternate "RXD" bidirectional line)
+			)
+			(pin power_in line
+				(at 15.24 8.89 180)
+				(length 2.54)
+				(name "V33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 6.35 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 3.81 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 15.24 1.27 180)
+				(length 2.54)
+				(name "P3.7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "UDM" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 15.24 -1.27 180)
+				(length 2.54)
+				(name "P3.6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "UDP" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 15.24 -3.81 180)
+				(length 2.54)
+				(name "P3.4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "PWM2" bidirectional line)
+				(alternate "RXD1_" bidirectional line)
+				(alternate "T0" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 15.24 -6.35 180)
+				(length 2.54)
+				(name "P3.3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "INT1" bidirectional line)
+			)
+			(pin bidirectional line
+				(at 15.24 -8.89 180)
+				(length 2.54)
+				(name "P1.1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "AIN0" bidirectional line)
+				(alternate "CAP2" bidirectional line)
+				(alternate "T2EX" bidirectional line)
+				(alternate "TIN1" bidirectional line)
+				(alternate "VBUS2" bidirectional line)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "CH591F"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2275,7 +2683,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -2909,14 +3317,14 @@
 		)
 		(symbol "CH591R_0_1"
 			(rectangle
-				(start 15.24 25.4)
-				(end -12.7 -25.4)
+				(start -12.7 25.4)
+				(end 15.24 -25.4)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -3293,14 +3701,14 @@
 		)
 		(symbol "CH592D_0_1"
 			(rectangle
-				(start 16.51 26.67)
-				(end -15.24 -25.4)
+				(start -15.24 26.67)
+				(end 16.51 -25.4)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -3782,7 +4190,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
@@ -4431,7 +4839,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
