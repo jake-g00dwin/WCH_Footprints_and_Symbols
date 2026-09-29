@@ -34,8 +34,15 @@ ones. I've added them to the repo just in case someone is missing them.
 
 **CH32X--(USB/PD):**
 
-- [ ] CH32X033
-- [ ] CH32X035
+- [ ] CH32X033:
+    - [ ] F8P6 
+- [ ] CH32X035:
+    - [ ] R8T6 
+    - [ ] C8T6 
+    - [X] G8U6
+    - [ ] G8R6 
+    - [ ] F8U6 
+    - [ ] F7P6 
 
 **CH32V--(General Purpose/Connectivity):**
 
