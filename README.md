@@ -152,7 +152,8 @@ These require the user to implement:
 
 ### ESD/overcurrent protection ICs
 
-- [ ] CH213
+- [ ] CH213:
+    - [X] K
 - [ ] CH217
 - [ ] CH410
 - [ ] CH412
