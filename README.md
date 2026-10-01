@@ -1,7 +1,7 @@
 # WCH_Footprints_and_Symbols
 A KiCAD library for WCH chips.
 
-**Current KiCAD Version:** 9.x
+**Current KiCAD Version:** 10.x
 
 Mostly going to work on getting all the RISC-V based MCUs added, then I'll 
 start working on the other ICs.
